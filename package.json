@@ -9,8 +9,12 @@
     "merge"
   ],
   "exports": {
-    ".": "./dist/index.mjs"
+    ".": "./dist/index.js"
   },
+  "files": [
+    "./dist",
+    "./src"
+  ],
   "license": "MIT",
   "author": "Mathieu Bour <mathieu@riverflow.co>",
   "maintainers": [
