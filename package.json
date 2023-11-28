@@ -21,7 +21,8 @@
   "scripts": {
     "clean": "rimraf dist",
     "build": "tsup",
-    "dev": "tsup --watch"
+    "dev": "tsup --watch",
+    "prepublishOnly": "pnpm build"
   },
   "dependencies": {
     "clsx": "^2.0.0",
